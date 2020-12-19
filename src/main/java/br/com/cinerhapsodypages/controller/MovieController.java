@@ -8,5 +8,10 @@ import org.springframework.web.bind.annotation.*;
 @Api(value = "Movie")
 public class MovieController {
 
+    @PostMapping
+    public void createMovie(MovieModel movie){
+
+    }
+
 
 }
