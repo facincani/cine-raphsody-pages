@@ -1,12 +1,12 @@
 package br.com.cinerhapsodypages.repository;
 
-import br.com.cinerhapsodypages.entity.Movie;
+import br.com.cinerhapsodypages.entity.MovieEntity;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
 
-public interface MovieRepository extends CrudRepository<Movie, Long> {
+public interface MovieRepository extends CrudRepository<MovieEntity, Long> {
 
-    Optional<Movie> findById(Long id);
+    Optional<MovieEntity> findById(Long id);
 
 }

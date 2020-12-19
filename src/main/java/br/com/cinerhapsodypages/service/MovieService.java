@@ -1,10 +1,10 @@
 package br.com.cinerhapsodypages.service;
 
 
-import br.com.cinerhapsodypages.domain.Movie;
+import br.com.cinerhapsodypages.domain.MovieModel;
 
 public interface MovieService {
 
-    Movie getMovieById(Integer id);
+    MovieModel getMovieById(Integer id);
 
 }
